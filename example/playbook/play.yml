@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: shell task demo
+      shell: pwd
+      args:
+        chdir: /tmp
